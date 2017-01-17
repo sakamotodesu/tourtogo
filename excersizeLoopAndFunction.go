@@ -5,7 +5,7 @@ import (
 )
 
 func Sqrt(x float64) float64 {
-	var z = float64(3)
+	var z = float64(1)
 	for n := 1; n < 10; n++ {
 		z = zzz(z, x)
 		fmt.Println(z)
