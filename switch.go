@@ -11,6 +11,7 @@ func main() {
 	switch os := runtime.GOOS; os {
 	case "darwin":
 		fmt.Println("Mac OS X")
+		fallthrough
 	default:
 		fmt.Printf("%s.", os)
 	}
